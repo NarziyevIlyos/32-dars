@@ -3,17 +3,21 @@ tailwind.config = {
     container: {
       center: true,
       width: {
-        tablet: "682px",
-        desktop: "1170px",
+        // tablet
+        tb: "682px",
+        // desktop
+        ds: "1170px",
       },
       padding: {
-        default: "30px",
-        tablet: "0px",
+        DEFAULT: "30px",
+        tb: "0px",
       },
     },
     screens: {
-      tablet: "780px",
-      desktop: "1280px",
+      // tablet
+      tb: "780px",
+      // desktop
+      ds: "1280px",
     },
     extend: {
       colors: {
@@ -22,14 +26,12 @@ tailwind.config = {
         text_color: "#2D2D2D",
       },
       boxShadow: {
-        'shadow': '34.85px 29.63px 48.34px 0px #3366FF0D',
+        shadow: "34.85px 29.63px 48.34px 0px #3366FF0D",
+        "mini-card-shadow": "34.85px 29.63px 48.34px 0px #3366FF0D",
+      },
+      letterSpacing: {
+        tightest: "-0.025em",
       },
     },
-    letterSpacing: {
-      tightest: "-0.025em"
-    }
   },
 };
-
-
-

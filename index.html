@@ -13,7 +13,7 @@
       <nav class="nav py-[22.5px]">
         <div class="container">
           <div
-            class="flex items-center justify-center nav__wrapper tablet:justify-between"
+            class="flex items-center justify-center nav__wrapper tb:justify-between"
           >
             <div class="nav__logo">
               <img src="./assets/icons/Landing-page-logo.svg" alt="" />
@@ -23,7 +23,7 @@
               <div class="nav__link">
                 <a
                   href="#"
-                  class="hidden desktop:block py-[18px] px-[50px] font-[600] text-[16px]"
+                  class="hidden ds:block py-[18px] px-[50px] font-[600] text-[16px]"
                 >
                   Contact
                 </a>
@@ -31,7 +31,7 @@
               <div class="nav__link">
                 <a
                   href="#"
-                  class="hidden tablet:block py-[18px] px-[50px] bg-[#E5F4F2] rounded-[20px] font-[600] text-[16px]"
+                  class="hidden tb:block py-[18px] px-[50px] bg-[#E5F4F2] rounded-[20px] font-[600] text-[16px]"
                 >
                   How it works
                 </a>
@@ -39,7 +39,7 @@
               <div class="nav__link">
                 <a
                   href="#"
-                  class="hidden desktop:flex gap-[8px] py-[18px] px-[50px] bg-btn_color text-white rounded-[20px] font-[600] text-[16px]"
+                  class="hidden ds:flex gap-[8px] py-[18px] px-[50px] bg-btn_color text-white rounded-[20px] font-[600] text-[16px]"
                 >
                   <img src="./assets/icons/nav-rocket.svg" alt="" />
                   <span>Get started</span>
@@ -53,42 +53,48 @@
 
     <main>
       <!-- HERO -->
-      <section class="hero">
+      <section class="hero py-[60px] ds:py-[120px]">
         <div class="container">
-          <div class="hero__wrapper flex gap-[72px] py-[120px]">
-            <div class="hero__info py-46px desktop:w-[648px]">
+          <div
+            class="hero__wrapper flex flex-col gap-[40px] justify-center items-center ds:gap-[72px] ds:flex-row"
+          >
+            <div
+              class="hero__info w-[100%] ds:py-46px tb:py-[100px] flex flex-col items-center px-[32px] ds:w-[648px]"
+            >
               <div
-                class="hero__info-title font-[700] text-[67px] tracking-tightest leading-[87.1px]"
+                class="hero__info-title text-[38px] font-[700] text-text_color tracking-tightest leading-[49.5px] text-center tb:text-[67px] tb:leading-[87.1px]"
               >
                 Create Engaging Landing Pages
               </div>
               <div
-                class="hero__info-desc mt-[20px] text-[21px] font-[400] leading-[31.5px]"
+                class="hero__info-desc w-[100%] mt-[20px] text-[16px] font-[400] text-text_color leading-[24px] text-center ds:mt-[20px] ds:text-[21px] ds:leading-[31.5px]"
               >
                 Build beautiful landing pages in record time with Anima’s
                 Landing Page UI kit for Figma. No code required!
               </div>
-              <div class="hero__info-btns flex gap-[18px] mt-[40px]">
+              <div class="hero__info-btns ds:flex gap-[18px] mt-[40px]">
                 <div class="hero__info-btn">
                   <a
                     href="#"
-                    class="hidden desktop:inline-flex gap-[8px] py-[18px] px-[50px] bg-btn_color text-white rounded-[20px] font-[600] text-[16px]"
+                    class="hidden ds:inline-flex gap-[8px] py-[18px] px-[50px] bg-btn_color text-white rounded-[20px] font-[600] text-[16px] transition-all duration-700 hover:bg-white hover:text-btn_color border-2 border-transparent hover:border-btn_color "
                   >
                     <img src="./assets/icons/nav-rocket.svg" alt="" />
-                    <span>Get started</span>
+                    <span class="">Get started</span>
                   </a>
                 </div>
                 <div class="hero__info-btn">
                   <a
                     href="#"
-                    class="hidden tablet:inline-block py-[18px] px-[50px] bg-white border-[1px] border-btn_color rounded-[20px] font-[600] text-[16px]"
+                    class="hidden tb:inline-block py-[18px] px-[50px] bg-white border-[1px] border-btn_color rounded-[20px] font-[600] text-[16px]"
                   >
                     How it works
                   </a>
                 </div>
               </div>
             </div>
-            <div class="hero__img">
+            <div
+              class="hero__img hover:scale-[1.2] transform transition-all duration-700 p-[27px] w-[320px] ds:w-[initial]"
+            >
               <img src="./assets/icons/create-engaging-bg-img.svg" alt="" />
             </div>
           </div>
@@ -97,28 +103,28 @@
       <!-- HERO -->
 
       <!-- PARTNERS -->
-      <div class="partners py-[60px]">
+      <div class="partners py-[30px] tb:py-[40px] ds:py-[60px]">
         <div class="container">
           <div
-            class="border-y-[1px] border-[#D8D8D8] partners__wrapper py-[61.66px] flex justify-between"
+            class="border-y-[1px] border-[#D8D8D8] partners__wrapper grid grid-cols-3 grid-rows-2 gap-[52.5px] place-items-center ds:py-[61.66px] ds:flex ds:justify-between"
           >
-            <div class="partners__img">
+            <div class="partners__img hover:scale-[1.2] transform transition-all duration-700 ">
               <img src="./assets/icons/partners-card-1.svg" alt="" />
             </div>
-            <div class="partners__img">
+            <div class="partners__img hover:scale-[1.2] transform transition-all duration-700 ">
               <img src="./assets/icons/partners-card-2.svg" alt="" />
             </div>
-            <div class="partners__img">
+            <div class="partners__img hover:scale-[1.2] transform transition-all duration-700 ">
               <img src="./assets/icons/partners-card-3.svg" alt="" />
             </div>
-            <div class="partners__img">
+            <div class="partners__img hover:scale-[1.2] transform transition-all duration-700 ">
               <img src="./assets/icons/partners-card-4.svg" alt="" />
             </div>
-            <div class="partners__img">
+            <div class="partners__img hover:scale-[1.2] transform transition-all duration-700 ">
               <img src="./assets/icons/partners-card-5.svg" alt="" />
             </div>
-            <div class="partners__img">
-              <img src="./assets/icons/partners-card-6.svg" alt="" />
+            <div class="partners__img hover:scale-[1.2] transform transition-all duration-700 ">
+              <img src="./assets/icons/partners-card-2.svg" alt="" />
             </div>
           </div>
         </div>
@@ -126,25 +132,27 @@
       <!-- PARTNERS -->
 
       <!-- FEATURES -->
-      <section class="features py-[120px]">
+      <section class="features py-[60px] ds:py-[120px]">
         <div class="container">
           <h2
-            class="features__title text-center font-[700] text-[38px] tracking-tightest leading-[49.4px]"
+            class="features__title text-center font-[600] text-[38px] tracking-tightest leading-[49.4px] text-text_color ds:font-[700]"
           >
             Features
           </h2>
           <p
-            class="features__desc pt-[20px] text-center text-text_color font-[400] text-[16px] leading-[24px]"
+            class="features__desc, mt-[24px] text-center text-text_color font-[400] text-[16px] leading-[24px] tb:mt-[20px]"
           >
             These are just a few features you’ll get using Anima Landing Page Ui
             Kit.
           </p>
-          <div class="features__cards mt-[60px] flex gap-[30px]">
+          <div
+            class="features__cards my-[30px] flex flex-col justify-center gap-[30px] tb:my-[100px] ds:my-[60px] ds:flex-row"
+          >
             <div
-              class="card w-[370px] border-[1px] border-[#E5F4F2] bg-white rounded-[20px] py-[40px] px-[30px] shadow-shadow"
+              class="card w-[100%] border-[1px] border-[#E5F4F2] bg-white rounded-[20px] py-[40px] px-[30px] shadow-shadow ds:w-[370px] flex-row"
             >
               <div class="card__header">
-                <div class="mx-auto w-fit">
+                <div class="mx-auto w-fit hover:scale-[1.2] transform transition-all duration-700 ">
                   <img src="./assets/icons/features-card-img-1.svg" alt="" />
                 </div>
               </div>
@@ -169,18 +177,21 @@
                       >Learn More
                     </span>
                     <div class="inline-block pt-[4.5px]">
-                      <img src="./assets/icons/arrow-sign.svg" alt="" />
+                      <img
+                        src="./assets/icons/blue-arrow-sign copy.svg"
+                        alt=""
+                      />
                     </div>
                   </a>
                 </div>
               </div>
             </div>
-            
+
             <div
-              class="card w-[370px] border-[1px] border-[#E5F4F2] bg-white rounded-[20px] py-[40px] px-[30px] shadow-shadow"
+              class="card w-[100%] border-[1px] border-[#E5F4F2] bg-white rounded-[20px] py-[40px] px-[30px] shadow-shadow ds:w-[370px] flex-row"
             >
               <div class="card__header">
-                <div class="mx-auto w-fit">
+                <div class="mx-auto w-fit hover:scale-[1.2] transform transition-all duration-700 ">
                   <img src="./assets/icons/features-card-img-2.svg" alt="" />
                 </div>
               </div>
@@ -205,18 +216,21 @@
                       >Learn More
                     </span>
                     <div class="inline-block pt-[4.5px]">
-                      <img src="./assets/icons/arrow-sign.svg" alt="" />
+                      <img
+                        src="./assets/icons/blue-arrow-sign copy.svg"
+                        alt=""
+                      />
                     </div>
                   </a>
                 </div>
               </div>
             </div>
-            
+
             <div
-              class="card w-[370px] border-[1px] border-[#E5F4F2] bg-white rounded-[20px] py-[40px] px-[30px] shadow-shadow"
+              class="card w-[100%] border-[1px] border-[#E5F4F2] bg-white rounded-[20px] py-[40px] px-[30px] shadow-shadow ds:w-[370px] flex-row"
             >
               <div class="card__header">
-                <div class="mx-auto w-fit">
+                <div class="mx-auto w-fit hover:scale-[1.2] transform transition-all duration-700 ">
                   <img src="./assets/icons/features-card-img-3.svg" alt="" />
                 </div>
               </div>
@@ -241,7 +255,10 @@
                       >Learn More
                     </span>
                     <div class="inline-block pt-[4.5px]">
-                      <img src="./assets/icons/arrow-sign.svg" alt="" />
+                      <img
+                        src="./assets/icons/blue-arrow-sign copy.svg"
+                        alt=""
+                      />
                     </div>
                   </a>
                 </div>
@@ -252,17 +269,274 @@
       </section>
       <!-- FEATURES -->
 
-      <section class="features">
-        <div class="container"></div>
-      </section>
+      <div class="flex flex-col-reverse changing__section ds:flex-col">
+        <section class="our-metrics py-[60px] tb:py-[100px] ds:py-[120px]">
+          <div class="container">
+            <h2
+              class="our-metrics__title font-[700] text-center text-[38px] leading-[49.5px] tracking-[-0.02em] text-text_color"
+            >
+              Our Metrics Tell the Story
+            </h2>
+            <p
+              class="our-metrics__desc mt-[20px] text-center text-[16px] leading-[21px] font-[400] text-text_color"
+            >
+              Our metrics component gives you the inside scoop on your success
+              and helps you stay on top of your game in style.
+            </p>
+            <div
+              class="grid grid-cols-2 grid-rows-2 gap-[20px] our-metrics__cards ds:gap-[30px] mt-[40px] tb:grid-cols-4 tb:grid-rows-1 ds:mt-[60px]"
+            >
+              <div
+                class="card h-[180px] hover:h-[150px] transform transition-all duration-700 border-b-[4px] border-b-[#F2BFAF] rounded-t-[20px] shadow-mini-card-shadow py-[30px] px-[16px] ds:py-[48px] ds:px-[16px] bg-white"
+              >
+                <span
+                  class="card__total-points font-[600] text-[28px] leading-[36.5px] tracking-[-0.01em] text-text_color text-center block shadow-shadow ds:font-[700] ds:text-[38px] ds:leading-[49.5px] ds:tracking-[-0.02em]"
+                  >100k+</span
+                >
+                <p
+                  class="card__desc text-[16px] font-[400] leading-[20.8px] text-text_color text-center"
+                >
+                  Website launched
+                </p>
+              </div>
 
-      <section class="features">
-        <div class="container"></div>
-      </section>
+              <div
+                class="card h-[180px] hover:h-[150px] transform transition-all duration-700 border-b-[4px] border-b-[#F2BFAF] rounded-t-[20px] shadow-mini-card-shadow py-[30px] px-[16px] ds:py-[48px] ds:px-[16px] bg-white"
+              >
+                <span
+                  class="card__total-points font-[600] text-[28px] leading-[36.5px] tracking-[-0.01em] text-text_color text-center block shadow-shadow ds:font-[700] ds:text-[38px] ds:leading-[49.5px] ds:tracking-[-0.02em]"
+                  >100k+</span
+                >
+                <p
+                  class="card__desc text-[16px] font-[400] leading-[20.8px] text-text_color text-center"
+                >
+                  Website launched
+                </p>
+              </div>
 
-      <section class="features">
-        <div class="container"></div>
+              <div
+                class="card h-[180px] hover:h-[150px] transform transition-all duration-700 border-b-[4px] border-b-[#F2BFAF] rounded-t-[20px] shadow-mini-card-shadow py-[30px] px-[16px] ds:py-[48px] ds:px-[16px] bg-white"
+              >
+                <span
+                  class="card__total-points font-[600] text-[28px] leading-[36.5px] tracking-[-0.01em] text-text_color text-center block shadow-shadow ds:font-[700] ds:text-[38px] ds:leading-[49.5px] ds:tracking-[-0.02em]"
+                  >100k+</span
+                >
+                <p
+                  class="card__desc text-[16px] font-[400] leading-[20.8px] text-text_color text-center"
+                >
+                  Website launched
+                </p>
+              </div>
+              <div
+                class="card h-[180px] hover:h-[150px] transform transition-all duration-700 border-b-[4px] border-b-[#F2BFAF] rounded-t-[20px] shadow-mini-card-shadow py-[30px] px-[16px] ds:py-[48px] ds:px-[16px] bg-white"
+              >
+                <span
+                  class="card__total-points font-[600] text-[28px] leading-[36.5px] tracking-[-0.01em] text-text_color text-center block shadow-shadow ds:font-[700] ds:text-[38px] ds:leading-[49.5px] ds:tracking-[-0.02em]"
+                  >100k+</span
+                >
+                <p
+                  class="card__desc text-[16px] font-[400] leading-[20.8px] text-text_color text-center"
+                >
+                  Website launched
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- GET-LANDING-PAGE -->
+        <section class="get-landing py-[120px] px-[55px]">
+          <div class="container">
+            <div
+              class="flex flex-col gap-[20px] items-center tb:flex-row ds:gap-[60px] get-landing__wrapper"
+            >
+              <div
+                class="get-landing__img hover:scale-[1.1] transform transition-all duration-700 w-[320px] ds:w-[initial]"
+              >
+                <img src="./assets/icons/get-landing__img.svg" alt="" />
+              </div>
+              <div
+                class="get-landing__info flex flex-col items-center tb:block dx:py-[68px]"
+              >
+                <h2
+                  class="get-landing__title text-center font-[600] text-[28px] tracking-[-0.01em] leading-[36px] text-text_color tb:text-left tb:font-[700] tb:text-[38px] tb:leading-[49.5px] tb:tracking-[-0.02em] ds:text-[50px] ds:text-left ds:leading-[65px] ds:font-[700]"
+                >
+                  Get Landing Page UI Kit Today!
+                </h2>
+                <p
+                  class="get-landing__desc text-center font-[400] text-[16px] leading-[24px] text-text_color mt-[20px] tb:text-left ds:leading-[31.5px] ds:text-[21px]"
+                >
+                  Break the Figma limits and explore the endless possibilities
+                  with Anima.
+                </p>
+                <div
+                  class="get-landing__btn py-[18px] px-[50px] rounded-[20px] gap-[8px] items-center bg-btn_color mt-[40px] inline-flex"
+                >
+                  <span class="text-white get-landing__btn-text">
+                    Get Started
+                  </span>
+                  <img
+                    class="block pt-[4px]"
+                    src="./assets/icons/white-arrow-sign.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- GET-LANDING-PAGE -->
+      </div>
+
+      <!-- REAL-STORIES -->
+      <section class="real-stories py-[120px] px-[55px]">
+        <div class="container">
+          <h2
+            class="real-stories__title text-center font-[700] text-[38px] leading-[50px] tracking-[-0.02em] text-text_color"
+          >
+            Real Stories from Satisfied Customers
+          </h2>
+          <p
+            class="text-center font-[400] text-[16px] leading-[21px] text-text_color real-stories__desc mt-[20px]"
+          >
+            See how our landing page ui kit is making an impact.
+          </p>
+          <div
+            class="real-stories__cards grid grid-cols-1 grid-rows-3 gap-[30px] ds:grid-cols-3 ds:grid-rows-1 ds:mt-[60px] ds:flex-row justify-center"
+          >
+            <div
+              class="card inline-flex flex-col justify-between items-center boder-[1px] border-[#E5F4F2] rounded-[20px] py-[40px] px-[30px] shadow-shadow tb:flex tb:flex-row gap-[30px] ds:flex-col"
+            >
+              <div class="card__top flex flex-col items-center tb:w-[280px]">
+                <div class="card__img">
+                  <img
+                    src="./assets/icons/comment__card-3-profile.svg"
+                    alt=""
+                  />
+                </div>
+                <h3
+                  class="card__title font-[600] text-[21px] leading-[27px] text-[#111827] mt-[16px]"
+                >
+                  Sarah K.
+                </h3>
+                <p
+                  class="card__profession mt-[6px] text-[#374151] text-[14px] leading-[22.5px] font-[400]"
+                >
+                  UX Designer @Brello
+                </p>
+              </div>
+              <div
+                class="flex flex-col items-center justify-between flex-grow w-full height-[197px] card__bottom"
+              >
+                <p
+                  class="text-center text-[16px] text-text_color font-[400] mt-[30px] card__comment"
+                >
+                  "Anima’s Landing Page UI Kit has become a staple in my design
+                  toolkit. Whether I'm working on a new project or need to make
+                  updates to an existing one, this kit has everything I need to
+                  get the job done quickly and efficiently."
+                </p>
+                <div
+                  class="card__stars mt-[30px] inline-flex gap-[5px] justify-center"
+                >
+                  <img src="./assets/icons/star.svg" alt="" />
+                  <img src="./assets/icons/star.svg" alt="" />
+                  <img src="./assets/icons/star.svg" alt="" />
+                  <img src="./assets/icons/star.svg" alt="" />
+                  <img src="./assets/icons/star.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div
+              class="card inline-flex flex-col justify-between items-center boder-[1px] border-[#E5F4F2] rounded-[20px] py-[40px] px-[30px] shadow-shadow tb:flex tb:flex-row gap-[30px] ds:flex-col"
+            >
+              <div class="card__top flex flex-col items-center tb:w-[280px]">
+                <div class="card__img">
+                  <img
+                    src="./assets/icons/comment__card-2-profile.svg"
+                    alt=""
+                  />
+                </div>
+                <h3
+                  class="card__title font-[600] text-[21px] leading-[27px] text-[#111827] mt-[16px]"
+                >
+                  Sarah K.
+                </h3>
+                <p
+                  class="card__profession mt-[6px] text-[#374151] text-[14px] leading-[22.5px] font-[400]"
+                >
+                  UX Designer @Brello
+                </p>
+              </div>
+              <div
+                class="flex flex-col items-center justify-between flex-grow w-full height-[197px] card__bottom"
+              >
+                <p
+                  class="text-center text-[16px] text-text_color font-[400] mt-[30px] card__comment"
+                >
+                  "Anima’s Landing Page UI Kit has become a staple in my design
+                  toolkit. Whether I'm working on a new project or need to make
+                  updates to an existing one, this kit has everything I need to
+                  get the job done quickly and efficiently."
+                </p>
+                <div
+                  class="card__stars mt-[30px] inline-flex gap-[5px] justify-center"
+                >
+                  <img src="./assets/icons/star.svg" alt="" />
+                  <img src="./assets/icons/star.svg" alt="" />
+                  <img src="./assets/icons/star.svg" alt="" />
+                  <img src="./assets/icons/star.svg" alt="" />
+                  <img src="./assets/icons/star.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div
+              class="card inline-flex flex-col justify-between items-center boder-[1px] border-[#E5F4F2] rounded-[20px] py-[40px] px-[30px] shadow-shadow tb:flex tb:flex-row gap-[30px] ds:flex-col"
+            >
+              <div class="card__top flex flex-col items-center tb:w-[280px]">
+                <div class="card__img">
+                  <img
+                    src="./assets/icons/comment__card-3-profile.svg"
+                    alt=""
+                  />
+                </div>
+                <h3
+                  class="card__title font-[600] text-[21px] leading-[27px] text-[#111827] mt-[16px]"
+                >
+                  Sarah K.
+                </h3>
+                <p
+                  class="card__profession mt-[6px] text-[#374151] text-[14px] leading-[22.5px] font-[400]"
+                >
+                  UX Designer @Brello
+                </p>
+              </div>
+              <div
+                class="flex flex-col items-center justify-between flex-grow w-full height-[197px] card__bottom"
+              >
+                <p
+                  class="text-center text-[16px] text-text_color font-[400] mt-[30px] card__comment"
+                >
+                  "Anima’s Landing Page UI Kit has become a staple in my design
+                  toolkit. Whether I'm working on a new project or need to make
+                  updates to an existing one, this kit has everything I need to
+                  get the job done quickly and efficiently."
+                </p>
+                <div
+                  class="card__stars mt-[30px] inline-flex gap-[5px] justify-center"
+                >
+                  <img src="./assets/icons/star.svg" alt="" />
+                  <img src="./assets/icons/star.svg" alt="" />
+                  <img src="./assets/icons/star.svg" alt="" />
+                  <img src="./assets/icons/star.svg" alt="" />
+                  <img src="./assets/icons/star.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+      <!-- REAL-STORIES -->
     </main>
   </body>
 </html>

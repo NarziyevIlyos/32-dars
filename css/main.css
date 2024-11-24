@@ -1,3 +1,12 @@
 body {
-    /* background-color: #F8F9FF; */
+  /* background-color: #F8F9FF; */
 }
+
+.container {
+  min-width: 330px;
+}
+
+/* .our-metrics__cards .card:hover {
+  height: 150px;
+  transition: all 0.7s;
+} */
